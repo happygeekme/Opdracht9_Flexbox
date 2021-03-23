@@ -1,0 +1,120 @@
+body {
+  font-family: redressed;
+  font-size:30px;
+  color: honeydew;
+  background-color: rgb(86, 153, 146);
+
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: lightcoral;
+  font-size: 35px;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: honeydew;
+}
+
+p {
+  padding-left:30px; 
+ }
+
+img.photo {
+  border: 1px solid #999;
+  background-color: #fcfcfc;
+  padding: 4px;
+}
+
+.navbar li {
+  list-style: none;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.dottedboarder {
+  border: greenyellow;
+  border-style: dotted;
+  border-radius:25px;
+  border-width: 10px;
+  margin: 15px;
+  padding:5px 10px;
+}
+
+.center-title {
+  width: 100%;
+  text-align: center;
+}
+
+.mooie-dingen {
+  padding-left: 60px;
+}
+
+.lijstje {
+  font-size: 20px;
+  padding-left:60px
+}
+
+.blogcontainer {
+  display:flex;
+  align-items: center;
+  flex-flow:wrap;
+}
+
+.blogpost { 
+  width: 300px; 
+  border: 1px solid black; 
+}
+
+#grow {
+  flex-grow:4;
+}
+
+#align {
+  align-self:stretch;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color:paleturquoise;
+    color:rebeccapurple;
+  }
+  
+  h1 {
+    font-size: 60px;
+  }
+
+  h2{
+    font-size:20px;
+  }
+
+  a {
+    font-size:20px;
+  }
+  .dottedboarder {
+    border-width: 2px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .navbar li {
+    display:inline;
+  }
+
+}

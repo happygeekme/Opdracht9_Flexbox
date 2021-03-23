@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Redressed&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>Stuur mij een recept</title>
+      </head>
+<body>
+        <header class="dottedboarder">
+          <h1 class="center-title">Stuur mij een recept</h1>
+        </header>
+    
+        <nav class="dottedboarder">
+          <ul class="navbar">
+            <li> <a href="index.html" alt="home pagina">Home</a></li>
+            <li>
+              <a
+                href="https://www.google.com/"
+                alt="link naar Goolge"
+                target="_blank"
+                >Google</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.webcamtaxi.com/en/space/earth-live-cam2.html"
+                alt="earth-live-cam2"
+                target="_blank"
+                >Earth from space</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                alt="contact me"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <main class="dottedboarder">
+        <form name="recepten" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="name"/></label>
+            </p>
+            <p>
+                <label>Emailadres: <input type="email" name="email"/></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="telefoon"/></label>    
+            </p>
+            <p>
+                <label>Leeftijd: <input type="number" name="leeftijd"/></label>
+            </p>
+            <p>
+                Gender:
+                <label for="man">Man</label>
+                <input name="Gender" type="radio" value="Man"/>
+                <label for="vrouw">Vrouw</label> 
+                <input name="Gender" type="radio" value="vrouw"/>
+            </p>
+            <p>
+                Favoriete keuken: 
+                <label>Frans <input name="Frans" type="checkbox"/></label>
+                <label>Italiaans <input name="Italiaans" type="checkbox"/> </label>
+                <label>Spaans <input name="Spaans" type="checkbox"/></label>
+                <label>Arabisch <input name="Arabisch" type="checkbox"/></label>
+            </p>
+            <p>
+                <label>Kleur schort: <input name="schort" type="color"/></label>
+            </p>
+            <p>      
+                <label>Biografie: <textarea name="Biografie"></textarea></label>
+            </p>
+            <p>
+                <label>Upload je laatste recept: <input name="Recept" type="file"/></label>
+            </p>
+            <p>
+                <label>Receptensite url: <input name="site" type="url"/></label>
+            </p>
+            <p>
+                <input type="reset"/>
+            </p>
+            <p>
+                <input type="submit"/>
+            </p>
+        </form>
+        </main>
+       
+</body>
+</html>
